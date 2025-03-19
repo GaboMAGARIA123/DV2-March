@@ -1,6 +1,8 @@
 body {
     font-family: arial, sans-serif;
     background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
 }
 
 .Georgias-Info {
@@ -9,6 +11,27 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: center;
-    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Georgias-Info h1 {
+    color: red
+}
+
+.Georgias-Info button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
 }
